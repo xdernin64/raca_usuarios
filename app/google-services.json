@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "227085469237",
+    "firebase_url": "https://raca-app-default-rtdb.firebaseio.com",
+    "project_id": "raca-app",
+    "storage_bucket": "raca-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227085469237:android:87867cc90259f013e6537c",
+        "android_client_info": {
+          "package_name": "com.apposmosis.asistencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4awdw7T8LjUlXUqRTCWvwENB62NdKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227085469237:android:523d207082bad9b3e6537c",
+        "android_client_info": {
+          "package_name": "com.apposmosis.raca_usuarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4awdw7T8LjUlXUqRTCWvwENB62NdKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227085469237:android:b52fb487ae310fe9e6537c",
+        "android_client_info": {
+          "package_name": "com.apposmosis.racalogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4awdw7T8LjUlXUqRTCWvwENB62NdKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227085469237:android:add672618b8b8230e6537c",
+        "android_client_info": {
+          "package_name": "com.apposmosis.racausers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4awdw7T8LjUlXUqRTCWvwENB62NdKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227085469237:android:00705cbe6ebd0bf0e6537c",
+        "android_client_info": {
+          "package_name": "com.eplanta.racav10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLb4awdw7T8LjUlXUqRTCWvwENB62NdKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227085469237-cuba3vb58mddpl9nkf46lvrml6b8riiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
