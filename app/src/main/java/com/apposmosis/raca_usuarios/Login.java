@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.apposmosis.raca_usuarios.ui.Asistencias_activity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -27,7 +28,7 @@ public class Login extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             // User is signed in
-            Intent i = new Intent(Login.this, Asistencias.class);
+            Intent i = new Intent(Login.this, Asistencias_activity.class);
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(i);
         } else {
@@ -67,7 +68,7 @@ public class Login extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
 
-                    startActivity(new Intent(Login.this,Asistencias.class));
+                    startActivity(new Intent(Login.this, Asistencias_activity.class));
                     finish();
                 }
                 else{
