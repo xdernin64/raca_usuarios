@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#DD1E1E"
     tools:context=".ui.Asistencias_activity">
 
     <LinearLayout
@@ -49,6 +50,7 @@
                 android:id="@+id/btn_salir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#EC0D0D"
                 android:text="salir" />
         </LinearLayout>
 
@@ -183,7 +185,9 @@
                 android:id="@+id/btn_buscarsem"
                 android:layout_width="98dp"
                 android:layout_height="66dp"
-                android:text="Buscar" />
+                android:backgroundTint="#43A047"
+                android:text="Buscar"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
         <ScrollView
@@ -193,7 +197,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rec_salidas"

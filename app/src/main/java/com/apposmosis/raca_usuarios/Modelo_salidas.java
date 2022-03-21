@@ -9,7 +9,7 @@ public class Modelo_salidas {
     String codigo;
     String horadesalida;
     Double horasextra;
-    String Apellidosynombres;
+    String apellidosynombres;
     String observacion;
 
 
@@ -24,7 +24,7 @@ public class Modelo_salidas {
         this.codigo = codigo;
         this.horadesalida = horadesalida;
         this.horasextra = horasextra;
-        Apellidosynombres = apellidosynombres;
+        this.apellidosynombres = apellidosynombres;
         this.observacion = observacion;
         this.docid = docid;
         this.elimnar = elimnar;
@@ -75,11 +75,11 @@ public class Modelo_salidas {
     }
 
     public String getApellidosynombres() {
-        return Apellidosynombres;
+        return apellidosynombres;
     }
 
     public void setApellidosynombres(String apellidosynombres) {
-        Apellidosynombres = apellidosynombres;
+        this.apellidosynombres = apellidosynombres;
     }
 
     public String getObservacion() {

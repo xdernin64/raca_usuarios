@@ -201,7 +201,7 @@ public class Asistencias_activity extends AppCompatActivity {
 
 
                         map.put("codigo",codigotxt);
-                        map.put("Apellidosynombres",datostxt);
+                        map.put("apellidosynombres",datostxt);
                         map.put("fecha",fechatedate);
                         map.put("horadesalida",horasalida);
                         map.put("horasextra",tiempoextra);
@@ -348,8 +348,8 @@ public class Asistencias_activity extends AppCompatActivity {
         });
         informaciondeusuario();
 
-    }
 
+    }
     private void informaciondeusuario() {
         String id=mAuth.getCurrentUser().getUid();
         db.collection("usuarios").document(id).get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
@@ -358,13 +358,8 @@ public class Asistencias_activity extends AppCompatActivity {
                 if (documentSnapshot.exists()){
 
                     String codigo=documentSnapshot.getString("codigo");
-                    String apellidos=documentSnapshot.getString("apellidos");
-                    String nombres=documentSnapshot.getString("nombres");
-                    String celular=documentSnapshot.getString("celular");
-                    String email=documentSnapshot.getString("correo");
-                    String password=documentSnapshot.getString("password");
-                    String uid=documentSnapshot.getString("uid");
-                    String nombrecompleto=apellidos+" "+nombres;
+                    String nombrecompleto=documentSnapshot.getString("apellidosynombres");
+                    String uid=documentSnapshot.getString("codigo");
                     tvcodigo.setText(codigo);
                     tvdatos.setText(nombrecompleto);
 
@@ -377,6 +372,7 @@ public class Asistencias_activity extends AppCompatActivity {
             }
         });
     }
+
 
 
     public void EventChangeListener(Date diaminimo,Date diamaximo) {

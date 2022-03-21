@@ -136,7 +136,7 @@ public class adaptador_salida extends RecyclerView.Adapter<adaptador_salida.MyVi
         return salidasArrayList.size();
     }
     public static class MyViewHolder extends RecyclerView.ViewHolder{
-        TextView tvfecha,tvcodigo,tvhsalida,tvhextras,txthorasemanales,tvobservacion;
+        TextView tvfecha,tvcodigo,tvhsalida,tvhextras,txthorasemanales,tvobservacion,tvdatos;
         Button btneliminar;
         String uid;
         public MyViewHolder(@NonNull View itemView) {
@@ -148,6 +148,7 @@ public class adaptador_salida extends RecyclerView.Adapter<adaptador_salida.MyVi
             txthorasemanales=itemView.findViewById(R.id.txt_fechamax);
             btneliminar=itemView.findViewById(R.id.btn_eliminar);
             tvobservacion=itemView.findViewById(R.id.tv_observaciones);
+            tvdatos=itemView.findViewById(R.id.tv_datos);
 
         }
     }
